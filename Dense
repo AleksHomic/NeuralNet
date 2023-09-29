@@ -1,0 +1,19 @@
+# Подключение класса для создания нейронной сети прямого распространения
+from tensorflow.keras.models import Sequential 
+# Подключение класса для создания полносвязного слоя
+from tensorflow.keras.layers import Dense 
+# Подключение оптимизатора
+from tensorflow.keras.optimizers import Adam 
+# Подключение утилит для to_categorical
+from tensorflow.keras import utils 
+# Подключение библиотеки для загрузки изображений
+from tensorflow.keras.preprocessing import image 
+# Подключение библиотеки для работы с массивами
+import numpy as np
+# Подключение модуля для работы с файлами
+import os
+# Подключение библиотек для отрисовки изображений
+import matplotlib.pyplot as plt 
+from PIL import Image 
+# Вывод изображения в ноутбуке, а не в консоли или файле
+%matplotlib inline 
