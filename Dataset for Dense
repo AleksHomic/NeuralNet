@@ -1,0 +1,3 @@
+# Загрузка датасета из облака
+import gdown
+gdown.download('https://storage.yandexcloud.net/aiueducation/Content/base/l3/hw_pro.zip', None, quiet=True)
